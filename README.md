@@ -52,7 +52,7 @@ SOURCES :-
 We have used the images in the game from the angry birds movie and some other sites where we could find the textures easily.
 
 GITHUB Link :-
-Github link
+[Github Link](https://github.com/Satvik1924/Angry_Birds_Game)
 
 
 
