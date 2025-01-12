@@ -1,61 +1,57 @@
-                              ANGRY BIRDS
+# Angry Birds Game
 
-SATVIK ARYA (2023493)
-SANJEEV (2023483)
+## Overview
+Welcome to the Angry Birds Game project! This is a simplified recreation of the iconic Angry Birds game, developed using the **libGDX framework** in Java. The project showcases core game development concepts and implements various **object-oriented programming (OOP)** principles such as inheritance, encapsulation, and polymorphism for structured and modular code. It leverages libGDX features, including built-in support for graphics, audio, input handling, and physics, to create an engaging and immersive gameplay experience.
 
+## Game Features
+- **User-Friendly Controls**:
+  - Drag-and-release mechanics for launching birds.
+  - Intuitive key-based controls for pausing, restarting, and saving the game.
 
+- **Three Levels**:
+  - Levels: Easy, Medium, and Hard.
+  - Each level has unique designs, obstacles, and targets, offering increasing difficulty.
+  
+- **Diverse Game Elements**:
+  - **Birds**: Three unique types of birds with distinct properties.
+  - **Pigs**: Three types of pigs with varying durability.
+  - **Materials**: Three types of blocks (wood, stone, glass) used to build obstacles.
 
-OVERVIEW :-
+- **Progression and Scoring**:
+  - Players must eliminate all pigs to proceed to the next level.
+  - The score increases as pigs are eliminated.
+  - Players have three chances to complete each level.
 
-Welcome to the Angry Birds Game project! This is a simplified recreation of the iconic Angry Birds game, developed using the libGDX framework in Java. The project showcases core game development concepts and  implements various oops concepts such as inheritance, encapsulation, and polymorphism for structured and modular code and libgdx features such as libGDX's built-in support for graphics, audio, input handling, and physics to create an immersive and efficient game development experience.
+- **Game Pause and Restart**:
+  - Press `P` to pause the game.
+  - Use the pause menu to resume, restart, or return to the main menu.
+  - Restart directly by pressing the `Space` bar.
 
+## Serialization
+- Save your progress:
+  - Press `S` to save the game state (score and remaining chances).
+  - The game state is saved as a `.ser` file (e.g., `game_state_<levelname>.ser`) in the assets folder.
+- Load a saved game:
+  - Press `L` to load the last saved state.
 
+## How to Run the Game
+To run the game, use the following command in your terminal:
+```
+./gradlew lwjgl3:run --stacktrace
+```
 
+## JUnit Testing
+The game includes **JUnit tests** to ensure functionality and accuracy. Key features tested include:
+- Trajectory calculations for launching birds.
+- Verifying the X and Y coordinates of sprites during gameplay.
 
-GAME FEATURES:-
+## Sources
+- Images and textures have been sourced from the Angry Birds movie and various free texture repositories.
 
-We have used User-Friendly Controls Drag-and-release mechanics for launching birds.
-
-Our game consists of three different levels Easy, Medium and Hard  and each with unique designs, obstacles, and targets to keep players engaged.
-
-Each level has unique designs of obstacles with increasing difficulty and each level consists of 3 types of boxes or material ,3 types of pigs and 3 types of birds to create a better interface and user experience.
-
-For going to the next level first the user has to kill all the pigs and score increases as the user kills the pig.The user will have 3 chances to kill all the pigs , if the user fails to do so he/she will lose the game.
-
-
-
-
-
-To pause the game we have to press P Button and to restart the game we can use the pause screen which displays various features like Resume,Restart and Return to main menu. We can also restart the game just by pressing Space Bar.
-
-
-
-SERIALIZATION :- 
-
-We can save the state of the game(score and number of chances left) by pressing the key S. We can also load the saved game state by pressing the key L. A file named game_state_”levelname”.ser in the assets folder is created when the command to save the game is entered and the same file executes when asked to load the game.
-
-
- 
-
-GAME COMMAND :-
-
-To run the game we have to use the command - ./gradlew lwjgl3:run --stacktrace
-
-
-
-J-UNIT TESTING :- 
-
-We have also added J-unit testing to test the functionality of the game to check the calculations of trajectory and to determine the x and y coordinates of sprites while playing the game.
-
-SOURCES :- 
-
-We have used the images in the game from the angry birds movie and some other sites where we could find the textures easily.
-
-GITHUB Link :-
-[Github Link](https://github.com/Satvik1924/Angry_Birds_Game)
-
-
-
+## Built With
+- **Java**: The primary programming language for development.
+- **libGDX**: A cross-platform game development framework.
+- **Maven** and **Gradle**: For dependency management and build automation.
 
 
 
